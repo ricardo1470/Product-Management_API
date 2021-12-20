@@ -2,7 +2,7 @@
 API Rest C#
 
 > ### Create project
-* dotnet new webapi -n <name file> --no-https
+* dotnet new webapi -n "name file" --no-https
 
 > ### run project
 * dotnet run
