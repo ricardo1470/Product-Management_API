@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8aa1ed30-235b-4e4a-82f8-592161e77439": {
+      "ProjectGuid": "8aa1ed30-235b-4e4a-82f8-592161e77439",
+      "DisplayName": "NetCoreAPIPostgreSQL",
+      "ColorIndex": 0
+    },
+    "40271d6d-98dc-4aca-a5a3-13958cc51159": {
+      "ProjectGuid": "40271d6d-98dc-4aca-a5a3-13958cc51159",
+      "DisplayName": "NetCoreAPIPostgreSQL.Data",
+      "ColorIndex": 1
+    },
+    "35f50dd8-ee79-464a-9ffb-89b8d7d8e7f4": {
+      "ProjectGuid": "35f50dd8-ee79-464a-9ffb-89b8d7d8e7f4",
+      "DisplayName": "NetCoreAPIPostgreSQL.Model",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

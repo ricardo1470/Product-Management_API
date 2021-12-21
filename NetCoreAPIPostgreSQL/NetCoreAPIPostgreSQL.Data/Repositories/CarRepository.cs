@@ -1,4 +1,6 @@
-﻿using NetCoreAPIPostgreSQL.Model;
+﻿using Dapper;
+using NetCoreAPIPostgreSQL.Model;
+using Npgsql;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,29 +11,80 @@ namespace NetCoreAPIPostgreSQL.Data.Repositories
 {
     public class CarRepository : ICarRepository
     {
-        public Task<bool> DeleteCard(Car car)
+        private PostgreSQLConfiguration _connectionString;
+        public CarRepository(PostgreSQLConfiguration connectionString)
         {
-            throw new NotImplementedException();
+            _connectionString = connectionString;
         }
 
-        public Task<IEnumerable<Car>> GetAllCars()
+        protected NpgsqlConnection dbConnection()
         {
-            throw new NotImplementedException();
+            return new NpgsqlConnection(_connectionString.ConnectionString);
         }
 
-        public Task<Car> GetCarDetails(int id)
+        public async Task<bool> DeleteCard(Car car)
         {
-            throw new NotImplementedException();
+            var db = dbConnection();
+
+            var sql = @"
+                        DELETE FROM public.""Cars""
+                        WHERE id = @Id ";
+
+            var result = await db.ExecuteAsync(sql, new { Id = car.Id });
+
+            return result > 0;
         }
 
-        public Task<bool> InsertCard(Car car)
+        public async Task<IEnumerable<Car>> GetAllCars()
         {
-            throw new NotImplementedException();
+            var db = dbConnection();
+
+            var sql = @"
+                        SELECT id, make, model, color, year, doors
+                        FROM public.""Cars"" ";
+
+            return await db.QueryAsync<Car>(sql, new {});
         }
 
-        public Task<bool> UpdateCard(Car car)
+        public async Task<Car> GetCarDetails(int id)
         {
-            throw new NotImplementedException();
+            var db = dbConnection();
+
+            var sql = @"
+                        SELECT id, make, model, color, year, doors
+                        FROM public.""Cars"" 
+                        WHERE id = @Id ";
+
+            return await db.QueryFirstOrDefaultAsync<Car>(sql, new { Id = id }); 
+        }
+
+        public async Task<bool> InsertCard(Car car)
+        {
+            var db = dbConnection();
+
+            var sql = @"
+                        INSERT INTO public.""Cars"" (make, model, color, year, doors)
+                        VALUES(@Make, @Model, @Color, @Year, @Doors) ";
+
+            var result =  await db.ExecuteAsync(sql, new { car.Make, car.Model, car.Color, car.Year, car.Doors });
+            return result > 0;
+        }
+
+        public async Task<bool> UpdateCard(Car car)
+        {
+            var db = dbConnection();
+
+            var sql = @"
+                        UPDATE public.""Cars"" 
+                        SET make = @Make,
+                            model = @Model,
+                            color = @Color,
+                            year = @year,
+                            doors = @Doors
+                        WHERE id = @Id";
+
+            var result = await db.ExecuteAsync(sql, new { car.Make, car.Model, car.Color, car.Year, car.Doors, car.Id });
+            return result > 0;
         }
     }
 }

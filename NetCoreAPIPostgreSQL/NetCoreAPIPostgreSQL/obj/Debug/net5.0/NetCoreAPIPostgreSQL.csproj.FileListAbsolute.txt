@@ -1,0 +1,8 @@
+C:\Users\Holberton\source\repos\Product-Management_API\NetCoreAPIPostgreSQL\NetCoreAPIPostgreSQL\obj\Debug\net5.0\NetCoreAPIPostgreSQL.csproj.AssemblyReference.cache
+C:\Users\Holberton\source\repos\Product-Management_API\NetCoreAPIPostgreSQL\NetCoreAPIPostgreSQL\obj\Debug\net5.0\NetCoreAPIPostgreSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Holberton\source\repos\Product-Management_API\NetCoreAPIPostgreSQL\NetCoreAPIPostgreSQL\obj\Debug\net5.0\NetCoreAPIPostgreSQL.AssemblyInfoInputs.cache
+C:\Users\Holberton\source\repos\Product-Management_API\NetCoreAPIPostgreSQL\NetCoreAPIPostgreSQL\obj\Debug\net5.0\NetCoreAPIPostgreSQL.AssemblyInfo.cs
+C:\Users\Holberton\source\repos\Product-Management_API\NetCoreAPIPostgreSQL\NetCoreAPIPostgreSQL\obj\Debug\net5.0\NetCoreAPIPostgreSQL.csproj.CoreCompileInputs.cache
+C:\Users\Holberton\source\repos\Product-Management_API\NetCoreAPIPostgreSQL\NetCoreAPIPostgreSQL\obj\Debug\net5.0\NetCoreAPIPostgreSQL.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Holberton\source\repos\Product-Management_API\NetCoreAPIPostgreSQL\NetCoreAPIPostgreSQL\obj\Debug\net5.0\NetCoreAPIPostgreSQL.RazorAssemblyInfo.cache
+C:\Users\Holberton\source\repos\Product-Management_API\NetCoreAPIPostgreSQL\NetCoreAPIPostgreSQL\obj\Debug\net5.0\NetCoreAPIPostgreSQL.RazorAssemblyInfo.cs
