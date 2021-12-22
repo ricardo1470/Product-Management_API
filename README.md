@@ -79,6 +79,9 @@ from a webpage.
 for more information visit: [Swagger](https://swagger.io/)
 
 > #### [Tests](#tests)
+---
+the tests are implemented using [NUnit](https://www.nunit.org/)
+
 > #### [License](#license)
 ---
 MIT License
