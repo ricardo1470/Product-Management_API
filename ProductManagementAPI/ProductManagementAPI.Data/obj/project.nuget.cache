@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1ReN1BT1INGGayWmPVk224KtGM4/6JcReXq4zxDKd2fpWRlPpbj49iQ4KQlNy0kfv1+Yz8DJKhwQ39h8x8KuVg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Holberton\\Documents\\Product-Management_API\\ProductManagementAPI\\ProductManagementAPI.Data\\ProductManagementAPI.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Holberton\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\Holberton\\.nuget\\packages\\npgsql\\6.0.2\\npgsql.6.0.2.nupkg.sha512",
+    "C:\\Users\\Holberton\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

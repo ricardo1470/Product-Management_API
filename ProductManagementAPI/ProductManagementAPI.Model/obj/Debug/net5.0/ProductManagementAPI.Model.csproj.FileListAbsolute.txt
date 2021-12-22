@@ -1,0 +1,12 @@
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Model\bin\Debug\net5.0\ProductManagementAPI.Model.deps.json
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Model\bin\Debug\net5.0\ProductManagementAPI.Model.dll
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Model\bin\Debug\net5.0\ref\ProductManagementAPI.Model.dll
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Model\bin\Debug\net5.0\ProductManagementAPI.Model.pdb
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Model\obj\Debug\net5.0\ProductManagementAPI.Model.csproj.AssemblyReference.cache
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Model\obj\Debug\net5.0\ProductManagementAPI.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Model\obj\Debug\net5.0\ProductManagementAPI.Model.AssemblyInfoInputs.cache
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Model\obj\Debug\net5.0\ProductManagementAPI.Model.AssemblyInfo.cs
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Model\obj\Debug\net5.0\ProductManagementAPI.Model.csproj.CoreCompileInputs.cache
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Model\obj\Debug\net5.0\ProductManagementAPI.Model.dll
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Model\obj\Debug\net5.0\ref\ProductManagementAPI.Model.dll
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Model\obj\Debug\net5.0\ProductManagementAPI.Model.pdb

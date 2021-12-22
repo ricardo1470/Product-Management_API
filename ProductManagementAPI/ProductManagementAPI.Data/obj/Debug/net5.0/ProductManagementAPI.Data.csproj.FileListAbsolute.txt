@@ -1,0 +1,15 @@
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Data\bin\Debug\net5.0\ProductManagementAPI.Data.deps.json
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Data\bin\Debug\net5.0\ProductManagementAPI.Data.dll
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Data\bin\Debug\net5.0\ref\ProductManagementAPI.Data.dll
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Data\bin\Debug\net5.0\ProductManagementAPI.Data.pdb
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Data\bin\Debug\net5.0\ProductManagementAPI.Model.dll
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Data\bin\Debug\net5.0\ProductManagementAPI.Model.pdb
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Data\obj\Debug\net5.0\ProductManagementAPI.Data.csproj.AssemblyReference.cache
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Data\obj\Debug\net5.0\ProductManagementAPI.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Data\obj\Debug\net5.0\ProductManagementAPI.Data.AssemblyInfoInputs.cache
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Data\obj\Debug\net5.0\ProductManagementAPI.Data.AssemblyInfo.cs
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Data\obj\Debug\net5.0\ProductManagementAPI.Data.csproj.CoreCompileInputs.cache
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Data\obj\Debug\net5.0\ProductManagementAPI.Data.csproj.CopyComplete
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Data\obj\Debug\net5.0\ProductManagementAPI.Data.dll
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Data\obj\Debug\net5.0\ref\ProductManagementAPI.Data.dll
+C:\Users\Holberton\Documents\Product-Management_API\ProductManagementAPI\ProductManagementAPI.Data\obj\Debug\net5.0\ProductManagementAPI.Data.pdb
