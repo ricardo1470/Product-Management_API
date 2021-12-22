@@ -36,8 +36,41 @@ API Rest C#
 * `\dv`: List views
 * `\timing`: Show query timing stats
 
+## Create Database
+
+```postgres
+DROP TABLE IF EXISTS public.products;
+```
+
+```postgres
+CREATE TABLE IF NOT EXISTS public.products
+(
+    id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 999999 CACHE 1 ),
+    productdescription text COLLATE pg_catalog."default",
+    productstatus text COLLATE pg_catalog."default",
+    dateofmanufacture date,
+    validitydate date,
+    suppliercode VARCHAR(500),
+    supplierdescription text COLLATE pg_catalog."default",
+    supplierphonenumber VARCHAR(50),
+    CONSTRAINT products1_pkey PRIMARY KEY (id)
+
+)
+```
+
+
+```postgres
+TABLESPACE pg_default;
+```
+
+```postgres
+    ALTER TABLE IF EXISTS public.products
+    OWNER to postgres;
+````
+
+
 > ## Built with
-this project was built in: `.NET`, `PostgreSQL`
+this project was built in: `.NET`, `PostgreSQL`, `Visual Studio 2020`
 
 
 <div align="center">

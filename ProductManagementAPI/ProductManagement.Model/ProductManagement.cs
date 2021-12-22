@@ -9,7 +9,7 @@ namespace ProductManagement.Model
     public class ProductManagement
     {
         public int Id { get; set; }
-        
+
         public string ProductDescription { get; set; }
 
         public bool ProductStatus { get; set; }
@@ -23,7 +23,6 @@ namespace ProductManagement.Model
         public string SupplierDescription { get; set; }
 
         public int SupplierPhoneNumber { get; set; }
-
 
     }
 }

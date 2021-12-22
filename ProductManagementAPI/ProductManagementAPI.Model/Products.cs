@@ -13,7 +13,6 @@ namespace ProductManagementAPI.Model
         public int Id { get; set; }
         public string ProductDescription { get; set; }
         public string ProductStatus { get; set; }
-
         [DataType(DataType.Date)]
         [Column(TypeName = "date")]
         public DateTime DateOfManufacture { get; set; }
@@ -21,6 +20,7 @@ namespace ProductManagementAPI.Model
         [DataType(DataType.Date)]
         [Column(TypeName = "date")]
         public DateTime ValidityDate { get; set; }
+
         public string SupplierCode { get; set; }
         public string SupplierDescription { get; set; }
         public string SupplierPhoneNumber { get; set; }
