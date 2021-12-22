@@ -1,14 +1,24 @@
 # Product-Management_API
-API Rest C#
+---
 
-> ### Create project
-* dotnet new webapi -n "name file" --no-https
+## Introduction
+## Table of Contents
+* [Introduction](#introduction)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Tests](#tests)
+* [License](#license)
+* [Author](#author)
 
-> ### run project
-* dotnet run
+> #### [Introduction](#introduction)
+---
+API to manage products and suppliers which are stored in a database that uses PostgreSQL as the engine for data management.
 
-> ### test project
-* dotnet test
+> #### [Installation](#installation)
+---
+clone the repository: `git clone https://github.com/ricardo1470/Product-Management_API.git`
+
+open the file using Visual Studio, must have dotnet 5.0 installed, run the script using the tools provided by the IDE
 
 ## Install PostgreSQL
 * `sudo apt update`
@@ -61,10 +71,22 @@ TABLESPACE pg_default;
     OWNER to postgres;
 ````
 
+> #### [Usage](#usage)
+---
+the API uses Swagger as a testing tool, Swagger is pre-configured when creating the project as `ASP.NET Core Web Api`,
+this tool allows us to test the implemented methods (`GET`, `POST`, `PUT`, `DELETE`).
+from a webpage.
+for more information visit: [Swagger](https://swagger.io/)
 
-> ## Built with
-this project was built in: `.NET`, `PostgreSQL`, `Visual Studio 2020`
+> #### [Tests](#tests)
+> #### [License](#license)
+---
+MIT License
+---
 
+*<a href="url"><img src="https://www.apsl.net/media/apslweb/images/postgresql-logo.width-900.png" align="middle" width="100" height="60"></a>`Product-Management_API` is open source and therefore free to download and use without permission.*
+> #### [Author](#author)
+---
 
 <div align="center">
 <h2>
@@ -78,5 +100,7 @@ this project was built in: `.NET`, `PostgreSQL`, `Visual Studio 2020`
 
 ---
 
-## License
-*<a href="url"><img src="https://www.apsl.net/media/apslweb/images/postgresql-logo.width-900.png" align="middle" width="100" height="60"></a>`Product-Management_API` is open source and therefore free to download and use without permission.*
+> ## Built with
+this project was built in: `.NET`, `PostgreSQL`, `Visual Studio 2020`
+
+
