@@ -1,7 +1,6 @@
 # Product-Management_API
 ---
 
-## Introduction
 ## Table of Contents
 * [Introduction](#introduction)
 * [Installation](#installation)
@@ -10,32 +9,32 @@
 * [License](#license)
 * [Author](#author)
 
-> #### [Introduction](#introduction)
+> ## [Introduction](#introduction)
 ---
 API to manage products and suppliers which are stored in a database that uses PostgreSQL as the engine for data management.
 
-> #### [Installation](#installation)
+> ## [Installation](#installation)
 ---
 clone the repository: `git clone https://github.com/ricardo1470/Product-Management_API.git`
 
 open the file using Visual Studio, must have dotnet 5.0 installed, run the script using the tools provided by the IDE
 
-## Install PostgreSQL
+### Install PostgreSQL
 * `sudo apt update`
 * `sudo apt install postgresql postgresql-contrib`
 * `sudo service postgresql start [stop, status, reload, restart]`
 
-## Version Postgresql
+### Version Postgresql
 `sudo -u postgres psql -c "SELECT version();"`
 
-## Start Postgres Shell
+### Start Postgres Shell
 * `sudo -u postgres psql`
 * `pass= root`
 
-## Set Password
+### Set Password
 * `ALTER USER postgres WITH PASSWORD 'root';`
 
-## Basic Postgres Commands
+### Basic Postgres Commands
 * `\q`: Quit
 * `\c` __database__: Connect to a database
 * `\d` __table__: Show table definition including triggers
@@ -46,7 +45,7 @@ open the file using Visual Studio, must have dotnet 5.0 installed, run the scrip
 * `\dv`: List views
 * `\timing`: Show query timing stats
 
-## Create Database
+### Create Database
 
 ```postgres
 DROP TABLE IF EXISTS public.products;
@@ -71,24 +70,24 @@ TABLESPACE pg_default;
     OWNER to postgres;
 ````
 
-> #### [Usage](#usage)
+> ## [Usage](#usage)
 ---
 the API uses Swagger as a testing tool, Swagger is pre-configured when creating the project as `ASP.NET Core Web Api`,
 this tool allows us to test the implemented methods (`GET`, `POST`, `PUT`, `DELETE`).
 from a webpage.
 for more information visit: [Swagger](https://swagger.io/)
 
-> #### [Tests](#tests)
+> ## [Tests](#tests)
 ---
 the tests are implemented using [NUnit](https://www.nunit.org/)
 
-> #### [License](#license)
+> ## [License](#license)
 ---
 MIT License
 ---
 
 *<a href="url"><img src="https://www.apsl.net/media/apslweb/images/postgresql-logo.width-900.png" align="middle" width="100" height="60"></a>`Product-Management_API` is open source and therefore free to download and use without permission.*
-> #### [Author](#author)
+> ## [Author](#author)
 ---
 
 <div align="center">
