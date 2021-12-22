@@ -40,9 +40,7 @@ API Rest C#
 
 ```postgres
 DROP TABLE IF EXISTS public.products;
-```
 
-```postgres
 CREATE TABLE IF NOT EXISTS public.products
 (
     id integer NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 999999 CACHE 1 ),
@@ -56,14 +54,9 @@ CREATE TABLE IF NOT EXISTS public.products
     CONSTRAINT products1_pkey PRIMARY KEY (id)
 
 )
-```
 
-
-```postgres
 TABLESPACE pg_default;
-```
 
-```postgres
     ALTER TABLE IF EXISTS public.products
     OWNER to postgres;
 ````
