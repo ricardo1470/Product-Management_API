@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5ab6d543-28da-4988-bb4b-54853b85d029": {
+      "ProjectGuid": "5ab6d543-28da-4988-bb4b-54853b85d029",
+      "DisplayName": "ProductManagementAPI",
+      "ColorIndex": 0
+    },
+    "c1a8dc6c-a196-47ae-ac73-55578f1646e7": {
+      "ProjectGuid": "c1a8dc6c-a196-47ae-ac73-55578f1646e7",
+      "DisplayName": "ProductManagementSQL.Data",
+      "ColorIndex": 1
+    },
+    "e5fea942-b1ba-4abe-a856-7569eb58546d": {
+      "ProjectGuid": "e5fea942-b1ba-4abe-a856-7569eb58546d",
+      "DisplayName": "ProductManagement.Model",
+      "ColorIndex": 2
+    },
+    "993e813a-6db0-4916-8fe6-a7f266ddd287": {
+      "ProjectGuid": "993e813a-6db0-4916-8fe6-a7f266ddd287",
+      "DisplayName": "ProductManagementAPI.Data",
+      "ColorIndex": 3
+    },
+    "ae2892e9-53a0-4182-999f-9a151ee4f468": {
+      "ProjectGuid": "ae2892e9-53a0-4182-999f-9a151ee4f468",
+      "DisplayName": "ProductManagementAPI.Model",
+      "ColorIndex": 4
+    },
+    "6a02064d-3428-4d11-9e01-d4dbb0f72b71": {
+      "ProjectGuid": "6a02064d-3428-4d11-9e01-d4dbb0f72b71",
+      "DisplayName": "ProductManagement.Test",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
